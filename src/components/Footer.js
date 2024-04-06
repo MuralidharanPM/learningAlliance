@@ -29,7 +29,7 @@ export default function Footer() {
                 </div>
                 <div className='footerSubTwoPCls'>
                     <div className='footerTakeOneCls'>
-                        &copy; {year.getFullYear()} Company name. All rights reserved
+                        &copy; {year.getFullYear()} Do Learn. All rights reserved
                     </div>
                     <div className='footerTakeTwoCls'>
                         <button className='linkedInCardCls'></button>

@@ -35,7 +35,7 @@
 .headerContCls {
     display: flex;
 }
-.headerContCls button {
+.headerContCls button, .headerContMobCls button {
     color: #1a1b1f;
     letter-spacing: .25px;
     margin-left: 5px;
@@ -163,6 +163,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px;
 }
 .statusPgCards {
     display: flex;
@@ -177,7 +178,7 @@
 }
 .footerStageOneCls img {
     max-width: 280px;
-    max-height: 150px;
+    max-height: 120px;
 }
 .footerCompanyDoesCls {
     display: flex;
@@ -295,4 +296,97 @@
     border: 0px;
     min-width: 35px;
     min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+}
+.headerMobBtnSec {
+    background-color: #1a1b1f !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    letter-spacing: 2px !important;
+    line-height: 18px !important;
+    padding: 12px 25px !important;
+    text-transform: uppercase !important;
+    transition: all .2s !important;
+    width: fit-content !important;
+    margin: auto !important;
+    margin-top: 5px !important;
+}
+.hideheaderAccord {
+    display: none;
+}
+.mobBurgerHeadCls {
+    content: " ";
+    background: url("../assets/burgerIcon.png");
+    border: 0px;
+    outline: none;
+    min-width: 40px;
+    min-height: 40px;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+    .aboutChildCls, .featureMainCls {
+        flex-direction: column;
+    }
+    .aboutImgPCls, .featuresMainAreaPCls {
+        max-width: none;
+    }
+    .statusPgCards {
+        min-width: 45%;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .footerStageOneCls {
+        flex-wrap: wrap;
+    }
+    .footerStageOneCls img, .footerCompanyDoesCls {
+        flex: 0 0 50%;
+    }
+    .footerStageTwoCls {
+        flex: 0 0 100%;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 991px) {
+    .navBarCls {
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+    .headerContMobCls {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 84px;
+        background: white;
+        padding: 0px 20px 20px 20px;
+        max-width: -webkit-fill-available;
+    }
+}
+@media (max-width: 768px) {
+    .footerStageOneCls {
+        flex-direction: column;
+    }
+    .footerStageTwoCls {
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .footerCompanyDoesCls {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 480px) {
+    .footerStageTwoCls input {
+        max-width: none;
+        min-width: 0px;
+    }
+    .footerSubTwoPCls {
+        flex-direction: column-reverse;
+    }
+    .footerTakeOneCls {
+        margin-top: 20px;
+    }
 }
