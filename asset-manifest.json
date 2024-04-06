@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/learningAlliance/static/css/main.e00dc936.css",
+    "main.js": "/learningAlliance/static/js/main.6b068a8a.js",
+    "static/js/453.62e90c8a.chunk.js": "/learningAlliance/static/js/453.62e90c8a.chunk.js",
+    "static/media/personalisedpath.jpg": "/learningAlliance/static/media/personalisedpath.e606e7ee63074115e910.jpg",
+    "static/media/aboutImageBg.jpg": "/learningAlliance/static/media/aboutImageBg.db7b350125bf0ac20c16.jpg",
+    "static/media/groupproject.jpg": "/learningAlliance/static/media/groupproject.559972d2ff47a23b27f2.jpg",
+    "static/media/LearningAllianceLogoExpanded.png": "/learningAlliance/static/media/LearningAllianceLogoExpanded.edb5dbf259d2141ddce3.png",
+    "static/media/onlinelearning.jpg": "/learningAlliance/static/media/onlinelearning.4f14323a8241f98fb767.jpg",
+    "static/media/twitter.svg": "/learningAlliance/static/media/twitter.b747598d667e94bb78f1.svg",
+    "static/media/linkedIn.svg": "/learningAlliance/static/media/linkedIn.490a8a0c03f1e7fa8b61.svg",
+    "index.html": "/learningAlliance/index.html",
+    "static/media/facebook.svg": "/learningAlliance/static/media/facebook.859ad8179c43110106df.svg",
+    "main.e00dc936.css.map": "/learningAlliance/static/css/main.e00dc936.css.map",
+    "main.6b068a8a.js.map": "/learningAlliance/static/js/main.6b068a8a.js.map",
+    "453.62e90c8a.chunk.js.map": "/learningAlliance/static/js/453.62e90c8a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e00dc936.css",
+    "static/js/main.6b068a8a.js"
+  ]
+}
