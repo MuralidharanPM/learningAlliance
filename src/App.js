@@ -1,14 +1,19 @@
-import Content from "./Content.js";
-import Footer from "./Footer.js";
-import HeaderPage from "./HeaderPage.js";
+import './App.css';
+import About from './components/About.js';
+import Feature from './components/Feature.js';
+import Footer from './components/Footer.js';
+import Navbar from './components/Navbar';
+import Status from './components/Status.js';
 
 function App() {
   return (
-    <div>
-      <HeaderPage></HeaderPage>
-      <Content></Content>
-      <Footer></Footer>
-    </div>
+    <>
+      <Navbar/>
+      <About/>
+      <Feature/>
+      <Status/>
+      <Footer/>
+    </>
   );
 }
 
